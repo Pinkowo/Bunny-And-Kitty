@@ -1,4 +1,3 @@
 # Bunny-And-Kitty
-<br>
 
-## Characters
+### Characters
