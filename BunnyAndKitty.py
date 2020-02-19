@@ -27,12 +27,12 @@ class App:
         self.bul_act=[False]*bul_num
         
         pyxel.init(160, 120, caption="Bunny and Kitty")
-        pyxel.load("C:/Users/pink/bg.pyxres")
+        pyxel.load("asset/bg.pyxres")
         pyxel.run(self.update, self.draw)
        
 
     def update(self):       
-        if pyxel.btnp(pyxel.KEY_Q):
+        if pyxel.btnp(pyxel.KEY_L):
             pyxel.quit()
                        
         if self.state == GameState.START:
