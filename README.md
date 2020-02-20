@@ -4,3 +4,5 @@ Here the story is, Kitty is a naughty cat who likes to tease Bunny, the poor rab
 One of you can play Kitty to near Bunny, the other can help Bunny shoot carrot to defend its garden.
 ## Characters
 ![Bunny](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Bunny.png)
+### Bunny
+Use **W** and **S** to go up and down.
