@@ -17,4 +17,7 @@ When Kitty was hit by carrot, Bunny won.
 ###### *~~(not a tigger but a cat)~~*
 * **⇑** to go up
 * **⇓** to go down
-* **⇐** to go forward
+* **⇐** to go forward  
+
+Kitty needs to dodge all carrots and gets closer to Bunny as possible as it can.  
+If Kitty arrived the fence in front of Bunny, Kitty won.
