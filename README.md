@@ -31,7 +31,7 @@ If Kitty arrive the fence in front of Bunny, Kitty win.
   * Python
   * pyxel
 * Download this repository.
-* To play run this command: `python BunnyAndKitty.py`.  
+* Run this command: `python BunnyAndKitty.py`.  
 
 **WARNING: Install the previous version of pyxel please.**  
 (This is because the file extension of asset was changed in version 1.2.10 or more)
