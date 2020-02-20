@@ -5,7 +5,9 @@ One of you can play Kitty to near Bunny, the other can help Bunny shoot carrots 
 ## Characters
 ![Bunny](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Bunny.png)
 ### Bunny
-Use **W** and **S** to go up and down.  
+* **W** to go up
+* **S** to go down 
+
 Bunny shoot carrots automatically when it move to the right spots of the six ways.  
 When Kitty was hit by carrot, Bunny won.  
   
