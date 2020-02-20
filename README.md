@@ -13,8 +13,8 @@ Bunny shoot carrots automatically when it move to the right spots of the six way
 When Kitty is hit by carrot, Bunny win.  
 
 ### Kitty
-![Kitty](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Kitty.png)
 ###### *~~(not a tigger but a cat)~~*
+![Kitty](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Kitty.png)
 * **⇑** to go up
 * **⇓** to go down
 * **⇐** to go forward  
