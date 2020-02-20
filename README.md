@@ -10,7 +10,7 @@ One of you can play Kitty to near Bunny, the other can help Bunny shoot carrots 
 * **S** to go down 
 
 Bunny shoot carrots automatically when it move to the right spots of the six ways.  
-When Kitty was hit by carrot, Bunny won.  
+When Kitty is hit by carrot, Bunny win.  
   
 ![Kitty](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Kitty.png)
 ### Kitty
@@ -20,4 +20,6 @@ When Kitty was hit by carrot, Bunny won.
 * **⇐** to go forward  
 
 Kitty needs to dodge all carrots and gets closer to Bunny as possible as it can.  
-If Kitty arrived the fence in front of Bunny, Kitty won.
+If Kitty arrive the fence in front of Bunny, Kitty win.  
+## Demo
+![Play Screen](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/play.gif)
