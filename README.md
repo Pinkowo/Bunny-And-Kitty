@@ -21,6 +21,7 @@ When Kitty is hit by carrot, Bunny win.
 
 Kitty needs to dodge all carrots and gets closer to Bunny as possible as it can.  
 If Kitty arrive the fence in front of Bunny, Kitty win.  
+### Others
 * **Space** to start and restart
 * **L** to leave  
 ## Demo
