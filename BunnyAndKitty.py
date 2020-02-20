@@ -3,6 +3,7 @@ from enum import Enum, unique, auto
 
 bul_num=15
 bul_dis=62
+bul_speed=1.8
 
 way = [8,32,56,80,104]
 
@@ -32,7 +33,7 @@ class App:
        
 
     def update(self):       
-        if pyxel.btnp(pyxel.KEY_L):
+        if pyxel.btnp(pyxel.KEY_L): #Leave
             pyxel.quit()
                        
         if self.state == GameState.START:
@@ -67,11 +68,11 @@ class App:
 #############################################################
     def update_kitty(self):
         if pyxel.btnr(pyxel.KEY_UP):
-            pyxel.play(0,1,loop=False)
+            pyxel.play(1,1,loop=False)
             self.kitty_y = max(self.kitty_y - 24, 8)
 
         if pyxel.btnr(pyxel.KEY_DOWN):
-            pyxel.play(0,2,loop=False)
+            pyxel.play(1,2,loop=False)
             self.kitty_y = min(self.kitty_y + 24, 104)
             
         if pyxel.btn(pyxel.KEY_LEFT):
@@ -94,12 +95,12 @@ class App:
             elif self.bunny_y ==  way[i] and self.bul_act[i] == False and self.bul_act[i+10] == False:
                 self.bullet_reset(i,i)
             if self.bul_act[i] == True:
-                self.bullet_x[i] += 1
+                self.bullet_x[i] += bul_speed
     #second bullet            
             if  self.bul_act[i+5] == False and self.bul_act[i] == True and self.bunny_y ==  way[i] and self.bullet_x[i] >= bul_dis :
                 self.bullet_reset(i+5,i)
             if self.bul_act[i+5] == True:
-                self.bullet_x[i+5] += 1
+                self.bullet_x[i+5] += bul_speed
             if self.bullet_x[i+5] > 160:
                 self.bul_act[i+5] = False
                 
@@ -107,7 +108,7 @@ class App:
             if  self.bul_act[i+10] == False and self.bul_act[i+5] == True and self.bunny_y ==  way[i] and self.bullet_x[i+5] >= bul_dis :
                 self.bullet_reset(i+10,i)
             if self.bul_act[i+10] == True:
-                self.bullet_x[i+10] += 1
+                self.bullet_x[i+10] += bul_speed
             if self.bullet_x[i+10] > 160:
                 self.bul_act[i+10] = False
             
