@@ -23,6 +23,15 @@ Kitty needs to dodge all carrots and gets closer to Bunny as possible as it can.
 If Kitty arrive the fence in front of Bunny, Kitty win.  
 ### Others
 * **Space** to start and restart
-* **L** to leave  
+* **L** to leave the game  
 ## Demo
 ![Play Screen](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/play.gif)
+## Installation
+* Install:
+  * Python
+  * pyxel
+* Download this repository.
+* To play run this command: `python BunnyAndKitty.py`.  
+
+**WARNING: Install the previous version of pyxel please.  
+(This is because the file extension of asset was changed in version 1.2.10 or more)**
