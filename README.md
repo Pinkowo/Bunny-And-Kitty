@@ -13,6 +13,6 @@ When Kitty was hit by carrot, Bunny won.
   
 ![Kitty](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Kitty.png)
 ### Kitty
-* **↑** to go up
-* **↓** to go down
-* **←** to go forward
+* **⇑** to go up
+* **⇓** to go down
+* **⇐** to go forward
