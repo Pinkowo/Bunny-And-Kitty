@@ -2,9 +2,7 @@
 Howdy! It's a two-player game made with **Pixel**.  
 Here the story is, Kitty is a naughty cat who likes to tease Bunny, the poor rabbit.  
 One of you can play Kitty to near Bunny, the other can help Bunny shoot carrots to defend its garden.
-## How to play
-* **Space** to start and restart
-* **L** to leave  
+## How to play  
 ![Bunny](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/Bunny.png)
 ### Bunny
 ###### *~~(not a pig but a rabbit)~~*
@@ -23,5 +21,7 @@ When Kitty is hit by carrot, Bunny win.
 
 Kitty needs to dodge all carrots and gets closer to Bunny as possible as it can.  
 If Kitty arrive the fence in front of Bunny, Kitty win.  
+* **Space** to start and restart
+* **L** to leave  
 ## Demo
 ![Play Screen](https://github.com/Pinkowo/Bunny-And-Kitty/blob/master/pics/play.gif)
